@@ -1,0 +1,61 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background */
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Main Card */
+.card {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+/* Welcome Section */
+.welcome {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.welcome h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.welcome h2 span {
+  color: #ffd369;
+}
+
+.welcome p {
+  margin-top: 8px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .card {
+    padding: 18px;
+  }
+
+  .welcome h2 {
+    font-size: 18px;
+  }
+}
